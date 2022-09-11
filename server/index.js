@@ -16,7 +16,7 @@ const io = new SocketServer(server);
 app.use(cors())
 app.use(morgan("dev", {
     cors: {
-        origin: 'http://localhost:5173'
+       // origin: 'http://localhost:5173'
     }
 }));
 
