@@ -4,7 +4,7 @@ import './App.css';
 import io from 'socket.io-client';
 
 // const socket = io('http://localhost:4000', { transports: ['websocket'] });
-const socket = io();
+const socket = io('', { transports: ['websocket'] });
 
 function App() {
 	const [message, setMessage] = useState('');
